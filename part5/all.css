@@ -1,0 +1,209 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  background-color: #f5f5f5;
+}
+.wrap {
+  width: 1286px;
+  background-color: #ffffff;
+  padding: 2px 0;
+  margin: 11px auto;
+}
+.wrap-item {
+  display: flex;
+  background-color: #eaf0ed;
+  margin-bottom: 42px;
+}
+.top-item {
+  display: flex;
+  width: 386px;
+  margin: 24px 36px 24px 28px;
+}
+.content {
+  margin-left: 12px;
+}
+.content h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #3f5d45;
+}
+.content p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  color: #3f5d45;
+}
+.middle-item {
+  text-align: center;
+  width: 354px;
+  margin: 0 auto;
+  padding-top: 12px;
+}
+.middle-item h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #3f5d45;
+}
+.middle-item p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  color: #3f5d45;
+}
+
+.bottom-item {
+  display: flex;
+}
+.item {
+  background-color: #eaf0ed;
+  padding: 12px 28px;
+}
+.bottom-item {
+  width: 1230px;
+  align-items: center;
+}
+.bottom-content {
+  padding: 40.5px 0;
+  margin-left: 12px;
+  color: #3f5d45;
+}
+.bottom-content h4 {
+  font-size: 22px;
+  color: #3f5d45;
+  font-weight: 600;
+}
+.bottom-content p {
+  font-size: 14px;
+  color: #3f5d45;
+  font-weight: 400;
+}
+.bottom {
+  padding-left: 76px;
+}
